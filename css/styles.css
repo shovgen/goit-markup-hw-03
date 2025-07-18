@@ -253,6 +253,7 @@ flex-wrap: wrap;
 /* ----- our-team-----*/
 .team {
     background-color: #f4f4fd;
+    padding-bottom: 120px;
 }
 
 .team-logo {
@@ -266,6 +267,7 @@ flex-wrap: wrap;
     
     padding-top: 120px;
     
+    
 
 }
 
@@ -275,10 +277,15 @@ flex-wrap: wrap;
     margin-left: 156px;
     flex-wrap: wrap;
 
+    
+
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+    max-width: 264px;
+    margin-top: 70px;
+    
 }
 
 .team-logo {
@@ -293,6 +300,8 @@ flex-wrap: wrap;
     text-align: center;
     color: #2E2F42;
     margin-top: 32px;
+
+   
 }
 
 .team-list-item-text {
@@ -305,11 +314,8 @@ flex-wrap: wrap;
     margin-top: 8px;
     padding-bottom: 32px;
 }
-
-.team-list-div{
-    max-width: 264px;
-    margin-top: 70px;
-    padding-bottom: 120px;
+.team-images{
+    display:block;
 }
 
 /* ----- portfolio-----*/
@@ -357,7 +363,9 @@ flex-wrap: wrap;
     margin-top: 8px;
 }
 
-
+.portfolio-imades{
+    display: block;
+}
 /* ----- footer-----*/
 .footer {
     background-image: url(../images/Dark-bg\ \(1\).jpg);
