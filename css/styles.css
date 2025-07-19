@@ -35,8 +35,13 @@ h1,h2,h3,h4,h5,h6,a,p,div{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
+img{
+    display: block;
+}
 /* ----- navigation -----*/
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -46,7 +51,8 @@ h1,h2,h3,h4,h5,h6,a,p,div{
     text-transform: uppercase;
     line-height: 1.17;
     margin-top: 24px;
-    
+    margin-right: 76px;
+    align-items: center;
 }
 
 .logo-studio {
@@ -56,19 +62,23 @@ h1,h2,h3,h4,h5,h6,a,p,div{
     letter-spacing: 0.03em;
     font-size: 18px;
     text-transform: uppercase;
-    gap: 76px;
-    
+    align-items: center;
+    margin-right: 76px;
 }
-
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
 .header-navigation-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 24px;
+  
     gap: 40px;
-    margin-right: 332px;
+    align-items: center;
+    display: flex;
 }
 
 .header-navigation-list-itme {
@@ -77,6 +87,7 @@ h1,h2,h3,h4,h5,h6,a,p,div{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-navigation-link {
@@ -97,7 +108,8 @@ h1,h2,h3,h4,h5,h6,a,p,div{
 display: flex;
 flex-wrap: wrap;
 align-items: center;
-flex-wrap: nowrap
+flex-wrap: nowrap;
+width: 1158px;
 
 }
 .div-header ul {
@@ -153,7 +165,7 @@ flex-wrap: wrap;
 
     font-weight: 1440px;
     line-height: 312px;
-    
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 
@@ -169,20 +181,17 @@ flex-wrap: wrap;
     padding-top: 188px;
     
     text-align: center;
-    max-width: 600px;
+    max-width: 496px;
 
   
 }
-
-
-
 .hero-banner-botton {
 
     font-weight: 500;
     font-size: 16px;
     color: #ffffff;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -190,7 +199,9 @@ flex-wrap: wrap;
 
     height: 56px;
     margin-left: 636px;
-    
+    display: block;
+    min-width: 169px;
+    border-radius: 4px;
 }
 .hero-banner-botton:hover {
     background-color: #404bbf;
