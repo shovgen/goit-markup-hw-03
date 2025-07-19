@@ -202,6 +202,7 @@ flex-wrap: wrap;
     display: block;
     min-width: 169px;
     border-radius: 4px;
+    border: none;
 }
 .hero-banner-botton:hover {
     background-color: #404bbf;
@@ -216,12 +217,17 @@ flex-wrap: wrap;
     padding: 120px 0;
 }
  
-.solutions-titel {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02;
-    color: #2e2f42;
+.visually-hidden {
+position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
 }
 
 .solutions-list {
@@ -235,9 +241,8 @@ flex-wrap: wrap;
 }
 
 .solutions-list-item {
-    
-max-width: 264px;
 width: calc((100% - 72px) / 4);
+max-width: 264px;
 }
 
 .solutions-list-item-title {
@@ -262,8 +267,8 @@ width: calc((100% - 72px) / 4);
 
 /* ----- our-team-----*/
 .team {
+    padding: 120px 0;
     background-color: #f4f4fd;
-    padding-bottom: 120px 0;
 }
 
 .team-logo {
@@ -292,10 +297,11 @@ width: calc((100% - 72px) / 4);
     padding: 32px 0
 }
 .team-list-item {
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     max-width: 264px;
     margin-top: 70px;
-    width: calc((100% - 72px) / 4);
+   
     border-radius: 0px 0px 4px 4px;
 
 }
