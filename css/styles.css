@@ -50,9 +50,11 @@ img{
     font-size: 18px;
     text-transform: uppercase;
     line-height: 1.17;
-    margin-top: 24px;
+    margin-left: 156px;
     margin-right: 76px;
-    align-items: center;
+    display: flex;
+    padding: 15px 15px;
+    
 }
 
 .logo-studio {
@@ -62,12 +64,15 @@ img{
     letter-spacing: 0.03em;
     font-size: 18px;
     text-transform: uppercase;
-    align-items: center;
+    display: flex;
     margin-right: 76px;
+    
+    
 }
 .header-navigation{
     display: flex;
-    align-items: center;
+ 
+   
 }
 .header-navigation-list {
     font-weight: 500;
@@ -77,8 +82,9 @@ img{
     color: #2e2f42;
   
     gap: 40px;
-    align-items: center;
+   
     display: flex;
+    margin-right: 332px;
 }
 
 .header-navigation-list-itme {
@@ -87,7 +93,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
+    
 }
 
 .header-navigation-link {
@@ -104,39 +110,21 @@ img{
 .header-navigation-link:focus {
     color: #404bbf;
 }
-.div-header{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-flex-wrap: nowrap;
-width: 1158px;
 
 
-}
+
 .div-header-secondary{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+    
 
-.div-header ul {
+    padding: 0 15px;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     
 }
-.header-direction {
-width: 940px;
-height: 72px;
-display: flex;
-flex-wrap: wrap;
 
-padding-left: 156px;
-}
-.header-direction ul{
-display: flex;
-flex-wrap: wrap;
 
-}
+
+
 
 /*addres*/
 .address {
@@ -151,6 +139,9 @@ flex-wrap: wrap;
 .address-list {
     color: #434455;
     gap: 40px;
+    display: flex;
+    
+    
 }
 
 .address-list-itme {
@@ -248,7 +239,7 @@ position: absolute;
 }
 
 .solutions-list-item {
-width: calc((100% - 72px) / 4);
+width: calc(( 100% - 72px ) / 4 );
 max-width: 264px;
 }
 
@@ -258,7 +249,7 @@ max-width: 264px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 120px;
+
     margin-bottom: 8px;
 }
 
@@ -305,7 +296,7 @@ max-width: 264px;
 }
 .team-list-item {
 
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc(( 100% - 3 * 24px ) / 4);
     background-color: #FFFFFF;
     max-width: 264px;
     margin-top: 70px;
@@ -372,7 +363,7 @@ max-width: 264px;
 }
 
 .portfolio-list-itme {
-   
+width: calc(( 100% - 48px ) / 3);
 }
 
 
@@ -380,7 +371,6 @@ max-width: 264px;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-
 
 
 }
