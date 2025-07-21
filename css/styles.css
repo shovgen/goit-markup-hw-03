@@ -31,7 +31,7 @@ li {
     padding-right: 24px;
     margin: 0 auto;
 }
-h1,h2,h3,h4,h5,h6,a,p,div{
+h1,h2,h3,h4,h5,h6,a,p,div,img{
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -71,7 +71,8 @@ img{
 }
 .header-navigation{
     display: flex;
- 
+    align-items: center;
+
    
 }
 .header-navigation-list {
@@ -102,7 +103,8 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-   
+    padding: 24px 0;
+    
 
 }
 
@@ -119,7 +121,7 @@ img{
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
-    
+    width: 1158px;
 }
 
 
@@ -239,7 +241,7 @@ position: absolute;
 }
 
 .solutions-list-item {
-width: calc(( 100% - 72px ) / 4 );
+width: calc((100% - 72px) / 4);
 max-width: 264px;
 }
 
@@ -296,7 +298,7 @@ max-width: 264px;
 }
 .team-list-item {
 
-    flex-basis: calc(( 100% - 3 * 24px ) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     background-color: #FFFFFF;
     max-width: 264px;
     margin-top: 70px;
@@ -339,7 +341,6 @@ max-width: 264px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 .portfolio-heading {
     font-weight: 700;
     font-size: 36px;
@@ -361,10 +362,10 @@ max-width: 264px;
     row-gap: 48px;
     
 }
-
-.portfolio-list-itme {
-width: calc(( 100% - 48px ) / 3);
+.portfolio-list-item{
+width: calc((100% - 48px) / 3);
 }
+
 
 
 .portfolio-list-div{
@@ -372,7 +373,7 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 
-
+max-width: 360px;
 }
 
 .portfolio-list-itme-titl {
@@ -381,7 +382,7 @@ border-top: none;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 32px;
+    
     margin-bottom: 8px;
 
 }
@@ -397,6 +398,7 @@ border-top: none;
 
 .portfolio-images{
     display: block;
+   
   
 }
 /* ----- footer-----*/
