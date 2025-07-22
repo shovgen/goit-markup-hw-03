@@ -27,8 +27,8 @@ li {
 
 .container{
     width: 1440;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 h1,h2,h3,h4,h5,h6,a,p,div,img{
@@ -37,10 +37,14 @@ h1,h2,h3,h4,h5,h6,a,p,div,img{
 }
 img{
     display: block;
+    
 }
 /* ----- navigation -----*/
 .header{
     border-bottom: 1px solid #e7e9fc;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
 }
 
     
@@ -217,7 +221,14 @@ img{
  
 .visually-hidden {
 position: absolute;
-    
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+   
+    /* added line */
+    border: 0;
 }
 
 .solutions-list {
@@ -233,7 +244,7 @@ position: absolute;
 .solutions-list-item {
 width: calc((100% - 72px) / 4);
 
-max-width: 264px;
+
 }
 
 .solutions-list-item-title {
@@ -292,7 +303,7 @@ max-width: 264px;
    
     background-color: #FFFFFF;
     max-width: 264px;
-    margin-top: 70px;
+   
    
     border-radius: 0px 0px 4px 4px;
 
@@ -399,7 +410,7 @@ max-width: 360px;
     background-size: contain;
     background-color: #2e2f42;
 
-    padding: 100px 0 100px;
+    padding: 100px 0;
 }
 
 .footer-logo {
