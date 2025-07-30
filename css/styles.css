@@ -31,7 +31,7 @@ li {
     padding-right: 15px;
     margin: 0 auto;
 }
-h1,h2,h3,h4,h5,h6,a,p,div,img{
+h1,h2,h3,h4,h5,h6,a,p,div,img,ul{
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -219,9 +219,17 @@ img{
 .solutions {
     padding: 120px 0;
 }
- .visually-hidden{
-    display: none;
- }
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;}
 
 .solutions-list {
     display: flex;
