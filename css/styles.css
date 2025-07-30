@@ -90,7 +90,7 @@ img{
     color: #2e2f42;
   
     gap: 40px;
-    padding: 24px 0;
+    
     display: flex;
     margin-right: 190px;
 }
@@ -111,7 +111,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
    
-
+padding: 24px 0;
 
 }
 
@@ -251,7 +251,7 @@ img{
 .solutions-list-item {
 width: calc((100% - 72px) / 4);
 
-
+border-radius: 0px 0px 4px 4px;
 }
 
 .solutions-list-item-title {
@@ -311,7 +311,6 @@ width: calc((100% - 72px) / 4);
    
    
     border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-logo {
@@ -373,6 +372,7 @@ width: calc((100% - 72px) / 4);
 }
 .portfolio-list-item{
 width: calc((100% - 48px) / 3);
+border-radius: 0px 0px 4px 4px;
 }
 
 
