@@ -37,6 +37,8 @@ h1,h2,h3,h4,h5,h6,a,p,div,img,ul{
 }
 ul{
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 img{
     display: block;
@@ -174,7 +176,9 @@ img{
     padding: 188px 0;
     background-color: #2e2f42;
 }
-
+.header-navigation-list-itme{
+    padding: 24px 0;
+}
 .hero-banner-title {
     color: #ffffff;
     font-weight: 700;
